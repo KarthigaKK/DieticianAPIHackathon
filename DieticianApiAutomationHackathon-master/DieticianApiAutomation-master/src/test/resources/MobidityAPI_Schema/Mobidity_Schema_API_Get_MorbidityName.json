@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome9",
+    "definitions": {
+        "Welcome9": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Items": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Item"
+                    }
+                }
+            },
+            "required": [
+                "Items"
+            ],
+            "title": "Welcome9"
+        },
+        "Item": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "MorbidityTestName": {
+                    "type": "string"
+                },
+                "MorbidityTestUnit": {
+                    "type": "string"
+                },
+                "MorbidityMarkerRef": {
+                    "type": "string"
+                },
+                "MorbidityName": {
+                    "type": "string"
+                },
+                "MorbidityTestId": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "MorbidityMarkerRef",
+                "MorbidityName",
+                "MorbidityTestId",
+                "MorbidityTestName",
+                "MorbidityTestUnit"
+            ],
+            "title": "Item"
+        }
+    }
+}

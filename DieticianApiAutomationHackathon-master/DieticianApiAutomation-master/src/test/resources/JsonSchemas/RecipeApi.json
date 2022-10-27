@@ -1,0 +1,349 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Items": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeStep": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            },
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeNutrient": {
+              "type": "string"
+            },
+            "RecipeIngredient": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeName",
+            "RecipeStep",
+            "RecipeType",
+            "RecipeFoodCategory",
+            "RecipeId",
+            "RecipeNutrient",
+            "RecipeIngredient"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeUrl": {
+              "type": "string"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeImg": {
+              "type": "string"
+            },
+            "RecipeStep": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            },
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeNutrient": {
+              "type": "string"
+            },
+            "RecipeIngredient": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeUrl",
+            "RecipeName",
+            "RecipeImg",
+            "RecipeStep",
+            "RecipeType",
+            "RecipeFoodCategory",
+            "RecipeId",
+            "RecipeNutrient",
+            "RecipeIngredient"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeUrl": {
+              "type": "string"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeImg": {
+              "type": "string"
+            },
+            "RecipeStep": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            },
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeNutrient": {
+              "type": "string"
+            },
+            "RecipeIngredient": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeUrl",
+            "RecipeName",
+            "RecipeImg",
+            "RecipeStep",
+            "RecipeType",
+            "RecipeFoodCategory",
+            "RecipeId",
+            "RecipeNutrient",
+            "RecipeIngredient"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeUrl": {
+              "type": "string"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeImg": {
+              "type": "string"
+            },
+            "RecipeStep": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            },
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeIngredient": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeUrl",
+            "RecipeName",
+            "RecipeImg",
+            "RecipeStep",
+            "RecipeType",
+            "RecipeFoodCategory",
+            "RecipeId",
+            "RecipeIngredient"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeUrl": {
+              "type": "string"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeImg": {
+              "type": "string"
+            },
+            "RecipeStep": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            },
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeNutrient": {
+              "type": "string"
+            },
+            "RecipeIngredient": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeUrl",
+            "RecipeName",
+            "RecipeImg",
+            "RecipeStep",
+            "RecipeType",
+            "RecipeFoodCategory",
+            "RecipeId",
+            "RecipeNutrient",
+            "RecipeIngredient"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeUrl": {
+              "type": "string"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeImg": {
+              "type": "string"
+            },
+            "RecipeStep": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            },
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeNutrient": {
+              "type": "string"
+            },
+            "RecipeIngredient": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeUrl",
+            "RecipeName",
+            "RecipeImg",
+            "RecipeStep",
+            "RecipeType",
+            "RecipeFoodCategory",
+            "RecipeId",
+            "RecipeNutrient",
+            "RecipeIngredient"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeUrl": {
+              "type": "string"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeImg": {
+              "type": "string"
+            },
+            "RecipeStep": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            },
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeNutrient": {
+              "type": "string"
+            },
+            "RecipeIngredient": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeUrl",
+            "RecipeName",
+            "RecipeImg",
+            "RecipeStep",
+            "RecipeType",
+            "RecipeFoodCategory",
+            "RecipeId",
+            "RecipeNutrient",
+            "RecipeIngredient"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeId",
+            "RecipeName",
+            "RecipeType",
+            "RecipeFoodCategory"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "RecipeId": {
+              "type": "integer"
+            },
+            "RecipeName": {
+              "type": "string"
+            },
+            "RecipeType": {
+              "type": "string"
+            },
+            "RecipeFoodCategory": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "RecipeId",
+            "RecipeName",
+            "RecipeType",
+            "RecipeFoodCategory"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "Items"
+  ]
+}
